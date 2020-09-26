@@ -1,0 +1,75 @@
+/*stylingsheet til index*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 1px solid black;
+  font-family: helvetica, arial, sans-serif;
+  border: 3px solid black;
+  margin: auto;
+  width: 60%;
+  padding: 15px;
+}
+
+.baggrundsbillede {
+  width: 100%;
+  height: 85px;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+  }
+
+.maleriet-overskrift {
+  position: absolute;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+.pensler, .rammer, .maling {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 25px;
+  }
+
+.center{
+  position: relative;
+  float: left;
+  top: 50%;
+  transform: translate(10%, -50%);
+}
+
+.pensler {
+  background-color: mediumspringgreen;
+}
+
+.rammer {
+  background-color: lightcoral;
+}
+
+.maling {
+  background-color: skyblue;
+}
+
+.under-overskrifter {
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.beskrivende-tekst{
+  margin-bottom: 25px;
+}
+
+strong {
+  color: blue;
+}
